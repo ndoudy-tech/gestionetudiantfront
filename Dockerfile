@@ -1,5 +1,5 @@
 ### STAGE 1: Définir le répertoire de travail ###
-FROM node:14.17.0-alpine as build
+FROM node:20.16.0-alpine as build
 WORKDIR /usr/src/app
 COPY package.json ./
 RUN npm install
